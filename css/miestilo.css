@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: left;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+
+header figure {
+    margin: 0;
+    margin-left: 1em; 
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1em;
+
+}
+
+aside {
+    width: 30%;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    bottom: 3em; 
+    background-color: #f8f9fa;
+    padding: 1em;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+}
+
+section {
+    width: 100%;
+    max-width: 700px;
+    margin-right: calc(30% + 2em);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 4em);
+    position: relative; 
+}
+
+article input {
+    width: calc(100% - 4em); 
+    padding: 0.5em;
+    margin: 0.5em 0;
+    font-size: 1em;
+}
+
+article button {
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button {
+    padding: 0.5em 1em;
+    margin: 0.5em 0.25em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em; 
+}
+
+
+.aviso {
+    text-align: center;
+}
+
+figure img.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+figure img.muñeco {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+aside p {
+    text-align: center;
+    margin-top: 1em;
+}
